@@ -11,6 +11,8 @@
 		067823D81EEE777900F1018E /* devops-map.json in Resources */ = {isa = PBXBuildFile; fileRef = 067823D41EEE777900F1018E /* devops-map.json */; };
 		067823D91EEE777900F1018E /* frontend-map.json in Resources */ = {isa = PBXBuildFile; fileRef = 067823D51EEE777900F1018E /* frontend-map.json */; };
 		067823DA1EEE777900F1018E /* intro-map.json in Resources */ = {isa = PBXBuildFile; fileRef = 067823D61EEE777900F1018E /* intro-map.json */; };
+		067823DE1EEE800E00F1018E /* RequiredForAnyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067823DD1EEE800E00F1018E /* RequiredForAnyPath.swift */; };
+		067823E11EEE928400F1018E /* 1..png in Resources */ = {isa = PBXBuildFile; fileRef = 067823E01EEE928400F1018E /* 1..png */; };
 		A0AD7AF51EE843A100C8F4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AD7AF41EE843A100C8F4A4 /* AppDelegate.swift */; };
 		A0AD7AF71EE843A100C8F4A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AD7AF61EE843A100C8F4A4 /* ViewController.swift */; };
 		A0AD7AFA1EE843A100C8F4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0AD7AF81EE843A100C8F4A4 /* Main.storyboard */; };
@@ -47,6 +49,8 @@
 		067823D41EEE777900F1018E /* devops-map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "devops-map.json"; path = "../../developer-roadmap/project-files/devops-map.json"; sourceTree = "<group>"; };
 		067823D51EEE777900F1018E /* frontend-map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "frontend-map.json"; path = "../../developer-roadmap/project-files/frontend-map.json"; sourceTree = "<group>"; };
 		067823D61EEE777900F1018E /* intro-map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "intro-map.json"; path = "../../developer-roadmap/project-files/intro-map.json"; sourceTree = "<group>"; };
+		067823DD1EEE800E00F1018E /* RequiredForAnyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequiredForAnyPath.swift; sourceTree = "<group>"; };
+		067823E01EEE928400F1018E /* 1..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1..png; path = ../../../Desktop/1..png; sourceTree = "<group>"; };
 		A0AD7AF11EE843A100C8F4A4 /* My_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AD7AF41EE843A100C8F4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0AD7AF61EE843A100C8F4A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +118,14 @@
 			name = "Info Jason";
 			sourceTree = "<group>";
 		};
+		067823DF1EEE926000F1018E /* 1.img */ = {
+			isa = PBXGroup;
+			children = (
+				067823E01EEE928400F1018E /* 1..png */,
+			);
+			name = 1.img;
+			sourceTree = "<group>";
+		};
 		A0AD7AE81EE843A100C8F4A4 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +149,7 @@
 		A0AD7AF31EE843A100C8F4A4 /* My_Project */ = {
 			isa = PBXGroup;
 			children = (
+				067823DF1EEE926000F1018E /* 1.img */,
 				067823D21EEE774100F1018E /* Info Jason */,
 				067823D11EEE772C00F1018E /* Info Img */,
 				A0AD7AF41EE843A100C8F4A4 /* AppDelegate.swift */,
@@ -144,6 +157,7 @@
 				A0AD7AF81EE843A100C8F4A4 /* Main.storyboard */,
 				A0AD7AFB1EE843A100C8F4A4 /* Assets.xcassets */,
 				A0AD7AFD1EE843A100C8F4A4 /* LaunchScreen.storyboard */,
+				067823DD1EEE800E00F1018E /* RequiredForAnyPath.swift */,
 				A0AD7B2A1EE843D100C8F4A4 /* project-files */,
 				A0AD7B001EE843A100C8F4A4 /* Info.plist */,
 			);
@@ -278,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067823E11EEE928400F1018E /* 1..png in Resources */,
 				067823D71EEE777900F1018E /* backend-map.json in Resources */,
 				067823DA1EEE777900F1018E /* intro-map.json in Resources */,
 				A0AD7B291EE843B500C8F4A4 /* 4. 개발자.png in Resources */,
@@ -314,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067823DE1EEE800E00F1018E /* RequiredForAnyPath.swift in Sources */,
 				A0AD7AF71EE843A100C8F4A4 /* ViewController.swift in Sources */,
 				A0AD7AF51EE843A100C8F4A4 /* AppDelegate.swift in Sources */,
 			);
