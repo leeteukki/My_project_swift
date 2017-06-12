@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067823D71EEE777900F1018E /* backend-map.json in Resources */ = {isa = PBXBuildFile; fileRef = 067823D31EEE777900F1018E /* backend-map.json */; };
+		067823D81EEE777900F1018E /* devops-map.json in Resources */ = {isa = PBXBuildFile; fileRef = 067823D41EEE777900F1018E /* devops-map.json */; };
+		067823D91EEE777900F1018E /* frontend-map.json in Resources */ = {isa = PBXBuildFile; fileRef = 067823D51EEE777900F1018E /* frontend-map.json */; };
+		067823DA1EEE777900F1018E /* intro-map.json in Resources */ = {isa = PBXBuildFile; fileRef = 067823D61EEE777900F1018E /* intro-map.json */; };
 		A0AD7AF51EE843A100C8F4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AD7AF41EE843A100C8F4A4 /* AppDelegate.swift */; };
 		A0AD7AF71EE843A100C8F4A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AD7AF61EE843A100C8F4A4 /* ViewController.swift */; };
 		A0AD7AFA1EE843A100C8F4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0AD7AF81EE843A100C8F4A4 /* Main.storyboard */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067823D31EEE777900F1018E /* backend-map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "backend-map.json"; path = "../../developer-roadmap/project-files/backend-map.json"; sourceTree = "<group>"; };
+		067823D41EEE777900F1018E /* devops-map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "devops-map.json"; path = "../../developer-roadmap/project-files/devops-map.json"; sourceTree = "<group>"; };
+		067823D51EEE777900F1018E /* frontend-map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "frontend-map.json"; path = "../../developer-roadmap/project-files/frontend-map.json"; sourceTree = "<group>"; };
+		067823D61EEE777900F1018E /* intro-map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "intro-map.json"; path = "../../developer-roadmap/project-files/intro-map.json"; sourceTree = "<group>"; };
 		A0AD7AF11EE843A100C8F4A4 /* My_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AD7AF41EE843A100C8F4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0AD7AF61EE843A100C8F4A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +92,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		067823D11EEE772C00F1018E /* Info Img */ = {
+			isa = PBXGroup;
+			children = (
+				A0AD7B221EE843B500C8F4A4 /* 1. 소개.png */,
+				A0AD7B231EE843B500C8F4A4 /* 2. 프론트앤드.png */,
+				A0AD7B241EE843B500C8F4A4 /* 3. 백앤드.png */,
+				A0AD7B251EE843B500C8F4A4 /* 4. 개발자.png */,
+			);
+			name = "Info Img";
+			sourceTree = "<group>";
+		};
+		067823D21EEE774100F1018E /* Info Jason */ = {
+			isa = PBXGroup;
+			children = (
+				067823D31EEE777900F1018E /* backend-map.json */,
+				067823D41EEE777900F1018E /* devops-map.json */,
+				067823D51EEE777900F1018E /* frontend-map.json */,
+				067823D61EEE777900F1018E /* intro-map.json */,
+			);
+			name = "Info Jason";
+			sourceTree = "<group>";
+		};
 		A0AD7AE81EE843A100C8F4A4 = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +137,8 @@
 		A0AD7AF31EE843A100C8F4A4 /* My_Project */ = {
 			isa = PBXGroup;
 			children = (
-				A0AD7B221EE843B500C8F4A4 /* 1. 소개.png */,
-				A0AD7B231EE843B500C8F4A4 /* 2. 프론트앤드.png */,
-				A0AD7B241EE843B500C8F4A4 /* 3. 백앤드.png */,
-				A0AD7B251EE843B500C8F4A4 /* 4. 개발자.png */,
+				067823D21EEE774100F1018E /* Info Jason */,
+				067823D11EEE772C00F1018E /* Info Img */,
 				A0AD7AF41EE843A100C8F4A4 /* AppDelegate.swift */,
 				A0AD7AF61EE843A100C8F4A4 /* ViewController.swift */,
 				A0AD7AF81EE843A100C8F4A4 /* Main.storyboard */,
@@ -250,10 +278,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067823D71EEE777900F1018E /* backend-map.json in Resources */,
+				067823DA1EEE777900F1018E /* intro-map.json in Resources */,
 				A0AD7B291EE843B500C8F4A4 /* 4. 개발자.png in Resources */,
 				A0AD7AFF1EE843A100C8F4A4 /* LaunchScreen.storyboard in Resources */,
 				A0AD7B261EE843B500C8F4A4 /* 1. 소개.png in Resources */,
 				A0AD7AFC1EE843A100C8F4A4 /* Assets.xcassets in Resources */,
+				067823D81EEE777900F1018E /* devops-map.json in Resources */,
+				067823D91EEE777900F1018E /* frontend-map.json in Resources */,
 				A0AD7B2B1EE843D100C8F4A4 /* project-files in Resources */,
 				A0AD7AFA1EE843A100C8F4A4 /* Main.storyboard in Resources */,
 				A0AD7B281EE843B500C8F4A4 /* 3. 백앤드.png in Resources */,
@@ -536,6 +568,7 @@
 				A0AD7B1B1EE843A100C8F4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0AD7B1C1EE843A100C8F4A4 /* Build configuration list for PBXNativeTarget "My_ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +577,7 @@
 				A0AD7B1E1EE843A100C8F4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0AD7B1F1EE843A100C8F4A4 /* Build configuration list for PBXNativeTarget "My_ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +586,7 @@
 				A0AD7B211EE843A100C8F4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
