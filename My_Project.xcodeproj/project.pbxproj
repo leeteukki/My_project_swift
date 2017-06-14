@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0617CD771EF1431A005D83AF /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0617CD761EF1431A005D83AF /* GoogleMobileAds.framework */; };
+		0617CD7A1EF14333005D83AF /* Back-end.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617CD791EF14333005D83AF /* Back-end.swift */; };
+		0617CD7C1EF1433D005D83AF /* Front-end.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617CD7B1EF1433D005D83AF /* Front-end.swift */; };
+		0617CD7E1EF1434B005D83AF /* DevOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617CD7D1EF1434B005D83AF /* DevOps.swift */; };
 		067823D71EEE777900F1018E /* backend-map.json in Resources */ = {isa = PBXBuildFile; fileRef = 067823D31EEE777900F1018E /* backend-map.json */; };
 		067823D81EEE777900F1018E /* devops-map.json in Resources */ = {isa = PBXBuildFile; fileRef = 067823D41EEE777900F1018E /* devops-map.json */; };
 		067823D91EEE777900F1018E /* frontend-map.json in Resources */ = {isa = PBXBuildFile; fileRef = 067823D51EEE777900F1018E /* frontend-map.json */; };
@@ -45,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0617CD761EF1431A005D83AF /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../Desktop/GoogleMobileAdsSdkiOS-7.20.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		0617CD791EF14333005D83AF /* Back-end.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Back-end.swift"; sourceTree = "<group>"; };
+		0617CD7B1EF1433D005D83AF /* Front-end.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Front-end.swift"; sourceTree = "<group>"; };
+		0617CD7D1EF1434B005D83AF /* DevOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevOps.swift; sourceTree = "<group>"; };
 		067823D31EEE777900F1018E /* backend-map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "backend-map.json"; path = "../../developer-roadmap/project-files/backend-map.json"; sourceTree = "<group>"; };
 		067823D41EEE777900F1018E /* devops-map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "devops-map.json"; path = "../../developer-roadmap/project-files/devops-map.json"; sourceTree = "<group>"; };
 		067823D51EEE777900F1018E /* frontend-map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "frontend-map.json"; path = "../../developer-roadmap/project-files/frontend-map.json"; sourceTree = "<group>"; };
@@ -76,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0617CD771EF1431A005D83AF /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +105,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0617CD781EF14323005D83AF /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0617CD791EF14333005D83AF /* Back-end.swift */,
+				0617CD7B1EF1433D005D83AF /* Front-end.swift */,
+				0617CD7D1EF1434B005D83AF /* DevOps.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
 		067823D11EEE772C00F1018E /* Info Img */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +148,7 @@
 		A0AD7AE81EE843A100C8F4A4 = {
 			isa = PBXGroup;
 			children = (
+				0617CD761EF1431A005D83AF /* GoogleMobileAds.framework */,
 				A0AD7AF31EE843A100C8F4A4 /* My_Project */,
 				A0AD7B081EE843A100C8F4A4 /* My_ProjectTests */,
 				A0AD7B131EE843A100C8F4A4 /* My_ProjectUITests */,
@@ -158,6 +178,7 @@
 				A0AD7AFB1EE843A100C8F4A4 /* Assets.xcassets */,
 				A0AD7AFD1EE843A100C8F4A4 /* LaunchScreen.storyboard */,
 				067823DD1EEE800E00F1018E /* RequiredForAnyPath.swift */,
+				0617CD781EF14323005D83AF /* controller */,
 				A0AD7B2A1EE843D100C8F4A4 /* project-files */,
 				A0AD7B001EE843A100C8F4A4 /* Info.plist */,
 			);
@@ -331,6 +352,9 @@
 			files = (
 				067823DE1EEE800E00F1018E /* RequiredForAnyPath.swift in Sources */,
 				A0AD7AF71EE843A100C8F4A4 /* ViewController.swift in Sources */,
+				0617CD7E1EF1434B005D83AF /* DevOps.swift in Sources */,
+				0617CD7A1EF14333005D83AF /* Back-end.swift in Sources */,
+				0617CD7C1EF1433D005D83AF /* Front-end.swift in Sources */,
 				A0AD7AF51EE843A100C8F4A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
